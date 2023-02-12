@@ -74,3 +74,13 @@ td img {
 }
 
 .cim:hover {opacity: 1;}
+
+#gomb:hover, #gomb:active {
+    transition-delay: 0.3s;
+    transform: scale(1.85);
+}
+
+#gomb {
+    transition: 0s background-color;
+    transition: transform 0.2s;
+}
