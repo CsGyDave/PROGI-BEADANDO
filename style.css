@@ -75,16 +75,12 @@ td img {
 
 .cim:hover {opacity: 1;}
 
-#eh{
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align: center;
-
+#gomb:hover, #gomb:active {
+    transition-delay: 0.3s;
+    transform: scale(1.85);
 }
 
-#hh{
-    font-size: large;
+#gomb {
+    transition: 0s background-color;
+    transition: transform 0.2s;
 }
