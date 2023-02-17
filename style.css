@@ -1,5 +1,5 @@
 nav img {
-    width: 75px;
+    width: 60px;
 }
 
 #elsomondat {
@@ -27,7 +27,7 @@ nav img {
 #HEADER {
     background-image: url(https://blackvelvetviphostlasvegas.com/wp-content/uploads/2015/09/Batman-copy1.jpg);
     width: 100%;
-    height: 100px
+    height: auto;
 }
 
 #HEADERSZOV {
@@ -75,9 +75,12 @@ td img {
 .cim {
     opacity: 0.6;
     transition: 0.7;
+
 }
 
 .cim:hover {opacity: 1;}
+
+
 
 #gomb:hover, #gomb:active {
     transition-delay: 0.3s;
